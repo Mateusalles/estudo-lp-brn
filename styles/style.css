@@ -52,10 +52,6 @@ h2.titulo span {
   margin: 0 5px;
 }
 
-.menu-mobile nav {
-  display: none;
-}
-
 /* ESTILO DO HEADER */
 
 #header {
@@ -330,7 +326,11 @@ footer .line-footer p a {
 }
 
 /* RESPONSIVIDADE */
-
+@media (min-width: 1020px) {
+  .menu-mobile nav {
+    display: none;
+  }
+}
 @media (max-width: 1020px) {
   /* CLASSES GERAIS */
 
